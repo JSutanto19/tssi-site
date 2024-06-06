@@ -1,7 +1,7 @@
-import "/Users/jamessutanto/CompanyProfile-/company-profile/src/styles/Background.css";
-import molding from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Molding.JPG';
-import design from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Design.JPG';
-import staff from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Staff.JPG' ;
+import "/Users/jason_sutanto/CompanyProfile-/company-profile/src/styles/Background.css";
+import molding from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Molding.JPG';
+import design from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Design.JPG';
+import staff from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Staff.JPG' ;
 
 const Background = ({ heroCount }) => {
   let backgroundImage;

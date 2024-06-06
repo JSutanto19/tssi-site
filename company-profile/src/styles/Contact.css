@@ -16,6 +16,19 @@
     padding: 20px;
 }
 
+@media (max-width: 600px) {
+    .contact-background {
+        flex-direction: column; /* Override margin-left for small screens */
+    }
+
+    .main-container h1 {
+       align-self: flex-start;
+       text-align: left;
+       margin-left: 20px;
+    }
+}
+
+
 .image-holder {
     flex: 1;
     margin-right: 20px;

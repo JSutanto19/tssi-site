@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '/Users/jamessutanto/CompanyProfile-/company-profile/src/styles/Navbar.css';
+import '/Users/jason_sutanto/CompanyProfile-/company-profile/src/styles/Navbar.css';
 
 const Navbar = () => {
   return (

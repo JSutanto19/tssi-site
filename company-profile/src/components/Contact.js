@@ -1,6 +1,6 @@
 import React from 'react';
-import reception from '/Users/jamessutanto/CompanyProfile-/company-profile/src/img/Reception.JPG';
-import '/Users/jamessutanto/CompanyProfile-/company-profile/src/styles/Contact.css';
+import reception from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Reception.JPG';
+import '/Users/jason_sutanto/CompanyProfile-/company-profile/src/styles/Contact.css';
 
 const Contact = () => {
   return (

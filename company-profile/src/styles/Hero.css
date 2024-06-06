@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ensure the hero section takes the full viewport height */
+  height: 75vh; /* Ensure the hero section takes the full viewport height */
 }
 
 .hero-text {
