@@ -5,6 +5,10 @@
     flex-direction: column;
     align-items: center;
     padding: 20px; /* Added padding for better spacing */
+    background-image: url('../img/service-bg-2.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .h1-style {
@@ -30,7 +34,7 @@
     margin: 10px; /* Margin for spacing between cards */
     overflow: hidden; /* Ensure content doesn't overflow the card */
     border-radius: 10px; /* Optional, for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.8); /* Enhanced shadow effect */
 }
 
 .service-row2 {
@@ -53,7 +57,7 @@
     }
 
     .h1-style{
-        align-self: flex-start;
+        text-align: center;
     }
 
     .service-para{
@@ -102,4 +106,6 @@
     width: 80%; /* Adjusted width for responsiveness */
     max-width: 1200px; /* Ensure a maximum width */
     text-align: center; /* Center the paragraph text */
+    border: 1px solid black; /* Set border width, style, and color */
 }
+

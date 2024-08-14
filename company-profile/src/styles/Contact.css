@@ -1,5 +1,5 @@
 .main-container {
-    background-color: #d9d9d9; /* Entire background color */
+    background: linear-gradient(to bottom, #3498DB 20%, #3498DB 20%, #f8f8f8 15%, #f8f8f8 100%);
     min-height: 100vh; /* Ensure it covers the full viewport height */
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the total width/height */
@@ -12,8 +12,8 @@
 .contact-background {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 20px;
+    align-items: stretch;
+    padding: 0px;
 }
 
 @media (max-width: 600px) {
@@ -31,16 +31,19 @@
 
 .image-holder {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 0px;
     height: 500px;
     display: flex;
     justify-content: flex-start;
+    margin-right: 40px;
+    margin-top: 40px;
+    align-items: flex-end;
 }
 
 .image {
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -59,12 +62,30 @@
     margin-left: 10%;
 }
 
-.text-holder p {
-    background-color: black; /* Background color for the pill */
-    color: white; /* Text color for contrast */
+.contact-para {
+    background-color: white; 
+    color: black;
+    border-radius: 20px; 
+    padding: 10px 10px; 
+    display: flex;
+    margin-bottom: 10px; 
+    margin-top: 0; 
+}
+
+.addr-div{
+    background-color: white; /* Background color for the pill */
+    color: black; /* Text color for contrast */
     border-radius: 20px; /* Creates the pill shape */
     padding: 10px 20px; /* Padding for better appearance */
     display: flex; /* Ensures the p tags don't take full width */
-    margin-bottom: 10px; /* Space between pills */
+    margin-bottom: 0px; /* Space between pills */
     margin-top: 0; /* Remove top margin for better alignment */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.outer-addr-div {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
 }

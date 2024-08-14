@@ -4,14 +4,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 0px; /* Added padding for better spacing */
+    padding-bottom: 20px;
+    background-image: url('../img/prod-bg.jpg');
+    background-size: cover; /* Make the background image cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+
 }
+
+.prod-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-contact{
+    background-color: #3498DB;
+    border-radius: 50px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+    margin-top: 2px;
+}
+
+.digit-div {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Added padding for better spacing */
+    background-image: url('../img/digit-bg.jpg');
+    background-size: cover; /* Make the background image cover the entire div */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
 
 h1 {
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto';
-    margin-bottom: 20px; /* Add bottom margin for spacing */
+    margin-bottom: 0px; /* Add bottom margin for spacing */
 }
 
 .clients-para {
@@ -26,24 +62,38 @@ h1 {
 }
 
 .service-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
-    gap: 20px; /* Space between grid items */
-    width: 100%; /* Ensure the grid takes full width */
-    max-width: 1200px; /* Set a maximum width */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
 }
 
 .service-card2 {
     position: relative;
-    width: 100%; /* Full width of the grid item */
-    padding-top: 100%; /* Aspect ratio of 1:1 */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    border-radius: 10px; /* Optional, for rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Ensure the content inside the card is stacked vertically */
     align-items: center;
-    background-color: #fff; /* Background color for the card */
+    width: 400px; /* Define a fixed width for the card */
+    height: 400px; /* Define a fixed height for the card */
+    margin: 10px; /* Margin for spacing between cards */
+    overflow: hidden; /* Ensure content doesn't overflow the card */
+    border-radius: 10px; /* Optional, for rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Optional, for a slight shadow */
+}
+
+.digit-card {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure the content inside the card is stacked vertically */
+    align-items: center;
+    width: 400px; /* Define a fixed width for the card */
+    height: 400px; /* Define a fixed height for the card */
+    margin: 10px; /* Margin for spacing between cards */
+    overflow: hidden; /* Ensure content doesn't overflow the card */
+    border-radius: 40px; /* Optional, for rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Optional, for a slight shadow */
+
 }
 
 .service-card2 img {
@@ -69,6 +119,10 @@ h1 {
     transition: opacity 0.3s ease; /* Smooth transition */
 }
 
+.card-text2 p {
+    max-width: fit-content;
+}
+
 .card-text2 {
     position: absolute;
     top: 0;
@@ -78,14 +132,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
     background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
     border-radius: 10px;
-    padding: 10px;
+    padding-right: 5px;
     text-align: center;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease; /* Smooth transition */
+    overflow: auto;
 }
 
 .card-text2 p {
@@ -105,4 +160,18 @@ h1 {
     text-align: center; /* Center the footer content */
     padding: 10px; /* Add padding for better spacing */
     width: 100%; /* Ensure footer takes full width */
+}
+
+@media (max-width: 600px) {
+    .prod-div{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .service-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

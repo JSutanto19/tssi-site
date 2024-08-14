@@ -9,7 +9,6 @@ function Home() {
   const heroData = [
     { text1: "Engineering", text2: "Excellence" },
     { text1: "Designing A ", text2: "Better Tomorrow" },
-    { text1: "We Are Here", text2: "To Serve You" },
   ];
 
   return (
