@@ -1,9 +1,5 @@
 import React from 'react';
 import '../styles/client.css';
-import img1 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/qc.jpeg';
-import img2 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/sip2.jpeg';
-import img3 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/rfid.png';
-import img5 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/digitization.webp'
 import { GoChecklist } from "react-icons/go";
 import { FaComputer } from "react-icons/fa6";
 import { FaMicrochip } from "react-icons/fa6";

@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/jason_sutanto/CompanyProfile-/company-profile/src/styles/Hero.css';
+import '../styles/Hero.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Hero = ({ heroData, setHeroCount, heroCount }) => {

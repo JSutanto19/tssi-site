@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/client.css'
-import img1 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/p1.JPG'
-import img2 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Sharp_TV.JPG'
-import img3 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/pxg930.JPG'
-import img4 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/img4.JPG'
-import img5 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/prod-1.jpg'
+import img1 from '../img/p1.JPG'
+import img2 from '../img/Sharp_TV.JPG'
+import img3 from '../img/pxg930.JPG'
+import img4 from '../img/img4.JPG'
+import img5 from '../img/prod-1.jpg'
 
 function Products() {
   return (
@@ -41,21 +41,21 @@ function Products() {
             <img src={img2} alt="Sharp Tv" />
             <h3>Tv Parts</h3>
             <div className='card-text2'>
-              <p>This is a Tv product.</p>
+              <p>This is a back cabinet of a TV.</p>
             </div>
           </div>
           <div className='service-card2'>
             <img src={img3} alt="Printer" />
             <h3>Printer Parts</h3>
             <div className='card-text2'>
-              <p>This is a Printer product.</p>
+              <p>This is a Printer part and is also known as the printer cover.Protects the printing mechanism. Open only when installing or replacing ink cartridges.</p>
             </div>
           </div>
           <div className='service-card2'>
             <img src={img4} alt="Olly Waver" />
-            <h3>Motorcycle Parts</h3>
+            <h3>FR Seat Cushion LH</h3>
             <div className='card-text2'>
-              <p>This is a Motorcycle product.</p>
+              <p>This is product serves as a cup holder to the car parts we help produce.</p>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom';
-import '/Users/jason_sutanto/CompanyProfile-/company-profile/src/styles/Navbar.css';
+import '../styles/Navbar.css';
 import React, { useState, useEffect } from 'react';
 
 

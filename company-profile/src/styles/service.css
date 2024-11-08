@@ -24,6 +24,13 @@
     gap: 20px; /* Use gap to evenly space items */
 }
 
+.service-list-row2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping if items exceed width */
+    gap: 90px; /* Use gap to evenly space items */
+}
+
 .service-card {
     position: relative;
     display: flex;
@@ -44,7 +51,7 @@
     align-items: center;
     width: 350px; /* Define a fixed width for the card */
     height: 400px; /* Define a fixed height for the card */
-    margin: 10px; /* Margin for spacing between cards */
+    margin: 5px; /* Margin for spacing between cards */
     overflow: hidden; /* Ensure content doesn't overflow the card */
     border-radius: 10px; /* Optional, for rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional, for a slight shadow */

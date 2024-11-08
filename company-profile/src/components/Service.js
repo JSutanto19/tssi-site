@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/service.css'
-import img1 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Mold_Maker.JPG'
-import img2 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Injection_Machine.JPG'
-import img3 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/assembly.JPG'
-import img4 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/qc.JPG'
-import img5 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Painting.JPG'
+import img1 from '../img/Mold_Maker.JPG'
+import img2 from '../img/Injection_Machine.JPG'
+import img3 from '../img/assembly.JPG'
+import img4 from '../img/qc.JPG'
+import img5 from '../img/Painting.JPG'
 
 
 function Service() {
@@ -31,14 +31,14 @@ function Service() {
                 </div>
             </div>
         </div>
-        <div className='service-list' style={{marginTop:'10px'}}>
+        <div className='service-list-row2' style={{marginTop:'30px', padding:'0px', margin:'10px'}}>
             <div className='service-card'>
                 <img src={img3}/>
                 <div className='card-text'>
                     <h3>Sub Assy & Second Process</h3>
                 </div>
             </div>
-            <div className='service-card'>
+            <div className='service-card' style={{marginLeft:'0px'}}>
                 <img src={img4} />
                 <div className='card-text'>
                     <h3>Quality Control</h3>

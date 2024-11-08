@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
-import img1 from '/Users/jason_sutanto/CompanyProfile-/company-profile/src/img/Injection.JPG';
+import img1 from '../img/Injection.JPG';
 
 function About() {
   return (
